@@ -7,7 +7,7 @@ sdk: docker
 pinned: false
 ---
 
-h2ge
+2ge2
 
 git add README.md
 git commit -m "Trigger Docker build"
