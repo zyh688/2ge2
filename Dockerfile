@@ -2,11 +2,10 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm install --production
-
 COPY . .
 
-EXPOSE 7860
+RUN npm install
+
+EXPOSE 7860  # Optional: replace with your actual port if needed
 
 CMD ["npm", "start"]
