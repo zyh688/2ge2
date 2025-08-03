@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm install
 
-EXPOSE 7860  # Optional: replace with your actual port if needed
+EXPOSE 7860
 
 CMD ["npm", "start"]
